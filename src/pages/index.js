@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ReactTypingEffect from 'react-typing-effect'
 import Intro from "./intro"
@@ -14,7 +15,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>
-      hi! i'm <ReactTypingEffect text={["anushka", "an innovator", "an engineer"]} typingDelay={1000} eraseDelay={1000}/>
+      hi! i'm <ReactTypingEffect text={["anushka", "a learner", "an engineer"]} typingDelay={1000} eraseDelay={1000}/>
     </h1>
     <section id="#intro">
       <Intro />
