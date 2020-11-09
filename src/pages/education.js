@@ -1,9 +1,28 @@
 import React from "react"
 import EduData from "../../content/education.yaml"
-import Accordion from 'react-bootstrap/Accordion'
-import Card from 'react-bootstrap/Card'
+import { makeStyles } from '@material-ui/core/styles';
+import Accordion from '@material-ui/core/Accordion'
+import AccordionSummary from '@material-ui/core/AccordionSummary'
+import AccordionDetails from '@material-ui/core/AccordionDetails'
+import Typography from '@material-ui/core/Typography'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import "./pages.css"
 
-const Education = () => (
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+  },
+  heading: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
+  },
+}));
+
+
+export default function Education() {
+  const classes = useStyles();
+
+  return (
   <div>
     <h2>{EduData.title}</h2>
     <ul>
@@ -11,25 +30,21 @@ const Education = () => (
         return <li key={`content_item_${index}`}>{data.item}</li>
       })}
     </ul>
-    <Accordion defaultActiveKey="0">
-  <Card>
-    <Accordion.Toggle as={Card.Header} eventKey="0">
-      Carnegie Mellon University
-    </Accordion.Toggle>
-    <Accordion.Collapse eventKey="0">
-      <Card.Body>Class of 2023</Card.Body>
-    </Accordion.Collapse>
-  </Card>
-  <Card>
-    <Accordion.Toggle as={Card.Header} eventKey="1">
-      Gwinnett School of Mathematics, Science, and Technology
-    </Accordion.Toggle>
-    <Accordion.Collapse eventKey="1">
-      <Card.Body>Class of 2019</Card.Body>
-    </Accordion.Collapse>
-  </Card>
-</Accordion>
+    <Accordion defaultExpanded={true}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
   </div>
-)
-
-export default Education
+  )
+    }
