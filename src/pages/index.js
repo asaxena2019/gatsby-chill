@@ -9,7 +9,6 @@ import Intro from "./intro"
 import Education from "./education"
 import Experience from "./experience"
 import Projects from "./projects"
-import Activities from "./activities"
 
 const IndexPage = () => (
   <Layout>
@@ -28,9 +27,6 @@ const IndexPage = () => (
     </section>
     <section id="#projects">
       <Projects />
-    </section>
-    <section id="#activities">
-      <Activities  />
     </section>
   </Layout>
 )

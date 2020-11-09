@@ -1,12 +1,16 @@
-title: projects
+title: selected_projects
 content:
 - item:
-      pineapples
+      social action project
 - item:
-      terminal
+      gatsby terminal starter
 - item:
-      social
+      scottylabs careers
 - item:
-      twitter
+      a taste of africa
 - item:
-      fire
+      feed the burghers
+- item:
+      pacman
+- item:
+      cme

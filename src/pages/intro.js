@@ -3,12 +3,9 @@ import IntroData from "../../content/intro.yaml"
 
 const Intro = () => (
   <div>
-    <h2>{IntroData.title}</h2>
-    <ul>
       {IntroData.content.map((data, index) => {
-        return <li key={`content_item_${index}`}>{data.item}</li>
+        return <p key={`content_item_${index}`}>{data.item}</p>
       })}
-    </ul>
   </div>
 )
 
