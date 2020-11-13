@@ -13,10 +13,8 @@ import Projects from "./projects"
 const IndexPage = () => (
   <Layout>
     <SEO title="home" />
-    <h1 id="home">
-      hi! i'm <ReactTypingEffect text={["anushka", "a learner", "an engineer"]} typingDelay={1000} eraseDelay={1000}/>
-    </h1>
     <section id="intro">
+      <h1>hi! i'm <ReactTypingEffect text={["anushka"]} typingDelay={1000} eraseDelay={1000}/></h1>
       <Intro />
     </section>
     <section id="education">

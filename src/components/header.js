@@ -4,13 +4,11 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Header = ({href}) => (
-  <Navbar
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-    sticky="top"
-  >
+  <div style={{
+    background: `rebeccapurple`,
+    marginBottom: `1.45rem`,
+  }}
+  sticky="top">
     <div
       style={{
         margin: `0 auto`,
@@ -18,17 +16,17 @@ const Header = ({href}) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <Navbar>
       <h1 style={{ margin: 0 }}>
-    <Navbar.Brand href="#home">/anushkasaxena/{href}</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#intro">/intro</Nav.Link>
-          <Nav.Link href="#education">/education</Nav.Link>
-          <Nav.Link href="#experience">/experience</Nav.Link>
-          <Nav.Link href="#projects">/selected_projects</Nav.Link>
+      <Nav className="mr-auto">
+          <Nav.Link href="#education" style={{color: 'white'}}>learning</Nav.Link>
+          <Nav.Link href="#experience" style={{color: 'white'}}>working</Nav.Link>
+          <Nav.Link href="#projects" style={{color: 'white'}}>building</Nav.Link>
         </Nav>
       </h1>
+      </Navbar>
     </div>
-  </Navbar>
+  </div>
 )
 
 Header.propTypes = {
