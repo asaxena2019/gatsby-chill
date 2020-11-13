@@ -1,13 +1,15 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-const Header = ({ siteTitle }) => (
-  <header
+const Header = ({href}) => (
+  <Navbar
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
+    sticky="top"
   >
     <div
       style={{
@@ -17,18 +19,16 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+    <Navbar.Brand href="#home">/anushkasaxena/{href}</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#intro">/intro</Nav.Link>
+          <Nav.Link href="#education">/education</Nav.Link>
+          <Nav.Link href="#experience">/experience</Nav.Link>
+          <Nav.Link href="#projects">/selected_projects</Nav.Link>
+        </Nav>
       </h1>
     </div>
-  </header>
+  </Navbar>
 )
 
 Header.propTypes = {

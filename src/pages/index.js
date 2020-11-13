@@ -12,20 +12,20 @@ import Projects from "./projects"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>
+    <SEO title="home" />
+    <h1 id="home">
       hi! i'm <ReactTypingEffect text={["anushka", "a learner", "an engineer"]} typingDelay={1000} eraseDelay={1000}/>
     </h1>
-    <section id="#intro">
+    <section id="intro">
       <Intro />
     </section>
-    <section id="#education">
+    <section id="education">
       <Education />
     </section>
-    <section id="#experience">
+    <section id="experience">
       <Experience />
     </section>
-    <section id="#projects">
+    <section id="projects">
       <Projects />
     </section>
   </Layout>
