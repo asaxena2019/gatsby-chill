@@ -3,8 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Typist from 'react-typist';
 
-import ReactTypingEffect from 'react-typing-effect'
 import Intro from "./intro"
 import Education from "./education"
 import Experience from "./experience"
@@ -23,7 +23,9 @@ const IndexPage = () => (
       
     </div>
     <section id="intro">
-      <h1>hi! i'm <ReactTypingEffect text={["anushka"]} typingDelay={1000} eraseDelay={1000}/></h1>
+      <Typist>
+        Animate this text.
+      </Typist>
       <Intro />
     </section>
     <section id="education">
