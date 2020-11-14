@@ -8,7 +8,6 @@ import "./pages.css"
 
 const Projects = () => (
   <div>
-    <SEO title="projects" />
     <h2>{ProjData.title}</h2>
     <Container>
     <Row>

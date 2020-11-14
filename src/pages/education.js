@@ -47,7 +47,6 @@ import Col from 'react-bootstrap/Col'
 
 const Education = () => (
   <div>
-    <SEO title="education" />
     <h2>{EduData.title}</h2>
     <h5>{EduData.university}</h5>
     <h6><i>{EduData.grad}</i></h6>

@@ -53,7 +53,6 @@ const renderMediumTooltip = (props) => (
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="home" />
     <div class="sidenav">
       <OverlayTrigger
       placement="right"
