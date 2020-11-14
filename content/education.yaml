@@ -1,10 +1,29 @@
 title: learning
-content:
-- item:
-      Carnegie Mellon University, Class of 2023, majoring in Electrical and Computer Engineering with concentrations in Software Systems and Security & Privacy
-- item:
-      Coursework Fundamentals of Programming, Principles of Imperative Computing, Introduction to Computer Systems, Introduction to Electrical and Computer Engineering, Electronic Devices and Analog Circuits, Introduction to Probabilitiy Theory, Concepts of Mathematics, Differential Equations, Calculus in Three Dimensions, Matrix Algebra with Applications, add next semester courses
-- item:
-      Programming Skills Python, Java, C
-      Scripting Skill HTML, CSS, JavaScript, React, Node, Gatsby
-      Hardware Arduino, SolidWorks, AutoDesk, Raspberry Pi
+university: Carnegie Mellon University
+grad: May 2023
+major: Electrical and Computer Engineering with concentrations in Software Systems and Security & Privacy
+coursework:
+      ece:
+      - item: Introduction to Computer Systems
+      - item: Electronic Devices and Analog Circuits
+      - item: Introduction to Electrical and Computer Engineering
+      - item: Structure and Design of Digital Systems
+      cs:
+      - item: Fundamentals of Programming
+      - item: Principles of Imperative Computing
+      - item: Rapid Prototyping Technologies
+      - item: Intermediate Rapid Prototyping
+      - item: Introduction to Machine Learning
+      math:
+      - item: Introduction to Probabilitiy Theory
+      - item: Concepts of Mathematics
+      - item: Differential Equations
+      - item: Calculus in Three Dimensions
+      - item: Matrix Algebra with Applications
+skills:
+      programming:
+      - item: Python, Java, C
+      scripting:
+      - item: HTML, CSS, JavaScript, React, Node, Gatsby, Ruby, Jekyll
+      hardware:
+      - item: Hardware Arduino, SolidWorks, AutoDesk, Grasshopper, Rhino, Raspberry Pi

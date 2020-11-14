@@ -7,8 +7,13 @@ const Experience = () => (
     <SEO title="experience" />
     <h2>{ExpData.title}</h2>
     <ul>
-      {ExpData.content.map((data, index) => {
-        return <li key={`content_item_${index}`}>{data.item}</li>
+      {ExpData.jobs.map((data, index) => {
+        return <div>
+          <li key={`content_item_${index}`}>
+          <b>{data.company}</b>
+          </li>
+          <i>{data.date}</i>
+        </div>
       })}
     </ul>
   </div>

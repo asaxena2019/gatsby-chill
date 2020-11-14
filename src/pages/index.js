@@ -99,7 +99,7 @@ const IndexPage = () => (
       </OverlayTrigger>
     </div>
     <section id="intro">
-      <h1>hi! i'm <ReactRotatingText items={['anushka', 'an engineer', 'a dreamer']} /></h1>
+      <h1>hi! i'm <ReactRotatingText items={['anushka', 'a maker', 'a dreamer']} /></h1>
       <Intro />
     </section>
     <section id="education">
