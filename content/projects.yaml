@@ -2,53 +2,55 @@ title: building
 projects:
       - title: pineapples
         date: october 2020-now
-        description: 
+        description: a collaborative blackboard for residential communities. using react, sockets.io, and p5.js
         links:
             - item: Github
               link: https://github.com/asaxena2019/pineapples
-            - item: Website
+            - item: App
               link: https://pineapples-chalkboard.herokuapp.com/
       - title: minimal starter
         date: june 2020
-        description: 
+        description: a jekyll template for my old portfolio website. using jeykll, ruby, and javascript.
         links:
             - item: Github
               link: https://github.com/asaxena2019/minimal-particle-template
-            - item: Website
-              link: http://anushkasaxena.me/
+            - item: Template
+              link: http://asaxena2019.github.io/
       - title: scottylabs careers
         date: june-july 2020
-        description: 
-        links:
+        description: a webpage with professional opportunities for the scottylabs community. using react, node.js, and google api.
+        links: 
             - item: Github
               link: https://github.com/asaxena2019/careerserver
             - item: Website
               link: https://careers.scottylabs.org/
       - title: a taste of africa
         date: june-july 2020
-        description: 
+        description: an e-commerce website for a catering busines as a part of levare. using gatsby and google api. 
         links:
             - item: Github
               link: https://github.com/atasteofafrica/atasteofafrica.github.io
             - item: Website
               link: https://atasteofafrica.netlify.app/
+            - item: Levare
+              link: http://levareorg.com/
       - title: feed the burghers
         date: october 2019
-        description: 
+        description: an app to connect food sources to those in need in the pittsburgh area. won best social hack @ hackcmu 2019. 
         links:
             - item: Website
               link: http://feedtheburghers.tech/
       - title: pacman
         date: november 2019
-        description:
-        links:
+        description: a spin-off of pacman with ghosts that utilizes dijkstra's algorithm to track pacman. using python.
+        links: 
             - item: Github
               link: https://github.com/asaxena2019/pacman
             - item: Video
               link: https://www.youtube.com/watch?v=Kftepi5UkU8
       - title: cme
         date: march 2018
-        description: 
+        description: a program that forecasts the effects of solar phenomenon on earth based on data from nasa satellites. using java.
         links:
             - item: Github
               link: https://github.com/asaxena2019/Modelling-the-Forecast-of-Solar-Energetic-Particle-Events-Year-2

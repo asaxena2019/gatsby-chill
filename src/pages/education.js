@@ -9,6 +9,7 @@ const Education = () => (
     <h5>{EduData.university}</h5>
     <h6><i>{EduData.grad}</i></h6>
     <h6><b>Major: </b> {EduData.major}</h6>
+    <h6><b>Awards: </b> {EduData.awards}</h6>
     <h6><b>Coursework: </b></h6>
     <Row>
       <Col>

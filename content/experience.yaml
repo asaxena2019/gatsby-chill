@@ -5,21 +5,20 @@ jobs:
         date: Fall 2020
         description: Helping students connect code and design to create beautiful products - even during a global pandemic.
         tasks:
-          - title: Hold office hours
-            description: 
+          - title: Hold office hours for ten+ students
+            description: to help students one-on-one with CAD, Python, Grasshopper, Rhino, and ideation.
           - title: Grade projects
-            description: 
+            description: and provide feedback to improve their design-thinking process.
       - company: Bank of America
-        role: Technical Analyst Intern
+        role: Freshman Technical Analyst Intern
         date: Summer 2020
-        description: 
+        description: Explored the culture and technology of the Bank. Due to privacy reasons, no project links are provided.
         tasks:
-          - title: 
-            description:
-      - company: Cisco
-        role: Extern
-        date: Summer 2018
-        description: 
-        tasks:
-          - title: 
-            description:
+          - title: Research Data Streaming API
+            description: using Java, Mule, and Apache Tomcat under Global Banking and Markets Technology and increased data transfer capacity to 50 MB.
+          - title: Enterprise Architecture Data Extraction Project
+            description: using JupyterLab and Python to upgrade enterprise architecture system and allow easier access to employee data.
+          - title: Ideal Stock Portfolio
+            description: analyzed from 250 stock options using Excel and Python. Placed in top 10 out of 200 stock portfolios for the highest return on investment.
+          - title: Environmental, Social, and Governance Proposal
+            description: to ensure students remain on their career pipeline. Acted as cohorot representative and communicated with representatives from the ESG group at the Bank.
