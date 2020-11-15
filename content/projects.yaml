@@ -2,33 +2,53 @@ title: building
 projects:
       - title: pineapples
         date: october 2020-now
-        description:
-        github: https://github.com/asaxena2019/careerserver
-        link: https://pineapples-chalkboard.herokuapp.com/
+        description: 
+        links:
+            - item: Github
+              link: https://github.com/asaxena2019/pineapples
+            - item: Website
+              link: https://pineapples-chalkboard.herokuapp.com/
       - title: minimal starter
         date: june 2020
         description: 
-        github: https://github.com/asaxena2019/minimal-particle-template
-        link: http://anushkasaxena.me/
+        links:
+            - item: Github
+              link: https://github.com/asaxena2019/minimal-particle-template
+            - item: Website
+              link: http://anushkasaxena.me/
       - title: scottylabs careers
         date: june-july 2020
         description: 
-        github: https://github.com/asaxena2019/minimal-particle-template
-        link: https://careers.scottylabs.org/
+        links:
+            - item: Github
+              link: https://github.com/asaxena2019/careerserver
+            - item: Website
+              link: https://careers.scottylabs.org/
       - title: a taste of africa
         date: june-july 2020
         description: 
-        github:
-        link: 
+        links:
+            - item: Github
+              link: https://github.com/atasteofafrica/atasteofafrica.github.io
+            - item: Website
+              link: https://atasteofafrica.netlify.app/
       - title: feed the burghers
         date: october 2019
-        description:
-        github:
+        description: 
+        links:
+            - item: Website
+              link: http://feedtheburghers.tech/
       - title: pacman
         date: november 2019
         description:
-        github:
-      - title: cmu
-        date: 
-        description:
-        github:
+        links:
+            - item: Github
+              link: https://github.com/asaxena2019/pacman
+            - item: Video
+              link: https://www.youtube.com/watch?v=Kftepi5UkU8
+      - title: cme
+        date: march 2018
+        description: 
+        links:
+            - item: Github
+              link: https://github.com/asaxena2019/Modelling-the-Forecast-of-Solar-Energetic-Particle-Events-Year-2

@@ -20,8 +20,9 @@ const Projects = () => (
                 <Card.Text>
                 {data.description}
                 </Card.Text>
-                <Card.Link href={ data.github } target="_blank" rel="noreferrer">Github</Card.Link>
-                <Card.Link href={ data.link } target="_blank" rel="noreferrer">Link</Card.Link>
+                {data.links.map((external, index) => {
+                  return <Card.Link href={ external.link } target="_blank" rel="noreferrer" key={`content_item_${index}`}>{ external.item }</Card.Link>
+                })}
                 </div>  
               </Card.Body>
           </Card>

@@ -6,20 +6,20 @@ jobs:
         description: Helping students connect code and design to create beautiful products - even during a global pandemic.
         tasks:
           - title: Hold office hours
-            description: numbers
+            description: 
           - title: Grade projects
-            description: help
+            description: 
       - company: Bank of America
         role: Technical Analyst Intern
         date: Summer 2020
-        description: hello
+        description: 
         tasks:
-          - title: hi
+          - title: 
             description:
       - company: Cisco
         role: Extern
         date: Summer 2018
-        description: nope
+        description: 
         tasks:
-          - title: hello
+          - title: 
             description:
