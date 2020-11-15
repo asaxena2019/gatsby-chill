@@ -1,14 +1,34 @@
 title: building
-content:
-- item:
-      minimal starter
-- item:
-      scottylabs careers
-- item:
-      a taste of africa
-- item:
-      feed the burghers
-- item:
-      pacman
-- item:
-      cme
+projects:
+      - title: pineapples
+        date: october 2020-now
+        description:
+        github: https://github.com/asaxena2019/careerserver
+        link: https://pineapples-chalkboard.herokuapp.com/
+      - title: minimal starter
+        date: june 2020
+        description: 
+        github: https://github.com/asaxena2019/minimal-particle-template
+        link: http://anushkasaxena.me/
+      - title: scottylabs careers
+        date: june-july 2020
+        description: 
+        github: https://github.com/asaxena2019/minimal-particle-template
+        link: https://careers.scottylabs.org/
+      - title: a taste of africa
+        date: june-july 2020
+        description: 
+        github:
+        link: 
+      - title: feed the burghers
+        date: october 2019
+        description:
+        github:
+      - title: pacman
+        date: november 2019
+        description:
+        github:
+      - title: cmu
+        date: 
+        description:
+        github:

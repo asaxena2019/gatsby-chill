@@ -1,6 +1,5 @@
 import React from "react"
 import ExpData from "../../content/experience.yaml"
-import SEO from "../components/seo"
 
 const Experience = () => (
   <div>
@@ -9,9 +8,18 @@ const Experience = () => (
       {ExpData.jobs.map((data, index) => {
         return <div>
           <li key={`content_item_${index}`}>
-          <b>{data.company}</b>
+          <b>{data.role}</b>
+          <br></br>{data.company}
+          <br></br><i>{data.date}</i>
+          <br></br>{data.description}
+          <ul>
+            {data.tasks.map((task, index) => {
+              return <li key={`content_item_${index}`}>
+                <p><b>{task.title}</b> {task.description}</p>
+                </li>
+            })}
+          </ul>
           </li>
-          <i>{data.date}</i>
         </div>
       })}
     </ul>

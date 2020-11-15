@@ -1,14 +1,14 @@
 import React from "react"
 import IntroData from "../../content/intro.yaml"
-import SEO from "../components/seo"
 import anushka from "../images/anushkasaxena.png"
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+var ReactRotatingText = require('react-rotating-text');
+
 const Intro = () => (
   <div>
-    
-    <SEO title="experience" />
+    <h1>hi! i'm <ReactRotatingText items={['anushka', 'a maker', 'a dreamer']} /></h1>
     <Row>
       <Col>
         {IntroData.content.map((data, index) => {

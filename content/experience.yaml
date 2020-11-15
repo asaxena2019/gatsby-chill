@@ -3,15 +3,23 @@ jobs:
       - company: Rapid Prototyping Technologies and Intermediate Rapid Prototyping
         role: Teaching Assistant
         date: Fall 2020
-        description:
-        projects: 
+        description: Helping students connect code and design to create beautiful products - even during a global pandemic.
+        tasks:
+          - title: Hold office hours
+            description: numbers
+          - title: Grade projects
+            description: help
       - company: Bank of America
         role: Technical Analyst Intern
         date: Summer 2020
-        description:
-        projects:
+        description: hello
+        tasks:
+          - title: hi
+            description:
       - company: Cisco
         role: Extern
         date: Summer 2018
-        description:
-        projects:
+        description: nope
+        tasks:
+          - title: hello
+            description:
