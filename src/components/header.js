@@ -15,14 +15,14 @@ const Header = ({href}) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      
-      <h1 style={{ margin: 0 }}>
-        <Nav className="mr-auto">
-          <Nav.Link href="#learning" style={{color: 'white'}}>learning</Nav.Link>
-          <Nav.Link href="#working" style={{color: 'white'}}>working</Nav.Link>
-          <Nav.Link href="#building" style={{color: 'white'}}>building</Nav.Link>
-        </Nav>
-      </h1>
+        
+        <Nav className="collapse navbar-nav navbar-collapse mr-auto">
+          <div className="navbar navbar-expand-lg" id="navbarSupportedContent" style={{ margin: 0 }}>
+            <Nav.Link href="#learning" style={{color: 'white'}}><h1>learning</h1></Nav.Link>
+            <Nav.Link href="#working" style={{color: 'white'}}><h1>working</h1></Nav.Link>
+            <Nav.Link href="#building" style={{color: 'white'}}><h1>building</h1></Nav.Link>
+          </div>
+          </Nav>
       
     </div>
   </Navbar>
