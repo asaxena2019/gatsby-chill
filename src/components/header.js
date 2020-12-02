@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav'
 const Header = ({href}) => (
   
   <Navbar sticky="top" expand="lg" style={{
-    background: `#D7C3FF`,
+    background: `#E6E6FA`,
     marginBottom: `1.45rem`,
   }}>
     <div
@@ -19,9 +19,9 @@ const Header = ({href}) => (
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#learning" style={{color: 'white'}}><h1>learning</h1></Nav.Link>
-      <Nav.Link href="#working" style={{color: 'white'}}><h1>working</h1></Nav.Link>
-      <Nav.Link href="#building" style={{color: 'white'}}><h1>building</h1></Nav.Link>
+      <Nav.Link href="#learning" style={{color: 'black'}}><h1>learning</h1></Nav.Link>
+      <Nav.Link href="#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
+      <Nav.Link href="#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </div>
