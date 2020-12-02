@@ -19,9 +19,10 @@ const Header = ({href}) => (
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#learning" style={{color: 'black'}}><h1>learning</h1></Nav.Link>
-      <Nav.Link href="#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
-      <Nav.Link href="#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
+      <Nav.Link href="/#learning" style={{color: 'black'}}><h1>learning</h1></Nav.Link>
+      <Nav.Link href="/#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
+      <Nav.Link href="/#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
+      <Nav.Link href="https://coffeecoders.medium.com/" style={{color: 'black'}} target="_blank" rel="noreferrer"><h1>writing</h1></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </div>
