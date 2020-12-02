@@ -4,8 +4,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Header = ({href}) => (
-  <Navbar sticky="top" style={{
-    background: `navy`,
+  
+  <Navbar sticky="top" expand="lg" style={{
+    background: `#D7C3FF`,
     marginBottom: `1.45rem`,
   }}>
     <div
@@ -15,17 +16,16 @@ const Header = ({href}) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-        
-        <Nav className="collapse navbar-nav navbar-collapse mr-auto">
-          <div className="navbar navbar-expand-lg" id="navbarSupportedContent" style={{ margin: 0 }}>
-            <Nav.Link href="#learning" style={{color: 'white'}}><h1>learning</h1></Nav.Link>
-            <Nav.Link href="#working" style={{color: 'white'}}><h1>working</h1></Nav.Link>
-            <Nav.Link href="#building" style={{color: 'white'}}><h1>building</h1></Nav.Link>
-          </div>
-          </Nav>
-      
-    </div>
-  </Navbar>
+  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="#learning" style={{color: 'white'}}><h1>learning</h1></Nav.Link>
+      <Nav.Link href="#working" style={{color: 'white'}}><h1>working</h1></Nav.Link>
+      <Nav.Link href="#building" style={{color: 'white'}}><h1>building</h1></Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </div>
+</Navbar>
 )
 
 Header.propTypes = {
