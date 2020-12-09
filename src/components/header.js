@@ -23,7 +23,7 @@ const Header = ({href}) => (
       <Nav.Link href="/#learning" style={{color: 'black'}}><h1>learning</h1></Nav.Link>
       <Nav.Link href="/#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
       <Nav.Link href="/#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
-      <Nav.Link href="/musings" style={{color: 'black'}}><h1>musings</h1></Nav.Link>
+      <Nav.Link href="/musing" style={{color: 'black'}}><h1>musing</h1></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </div>

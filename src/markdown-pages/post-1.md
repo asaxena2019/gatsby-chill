@@ -1,6 +1,7 @@
 ---
-slug: "/musings/my-first-post"
-date: "2019-05-04"
+slug: "/post-1"
+date: "2018-05-04"
 title: "My first blog post"
+tags: ["trying this out", "one"]
 ---
 hello world!

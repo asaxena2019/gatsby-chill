@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import PostLink from "../components/post-link"
 import Layout from "../components/layout"
 
-const Musings = ({
+const Musing = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -18,7 +18,7 @@ const Musings = ({
     </Layout>
 }
 
-export default Musings
+export default Musing
 
 export const pageQuery = graphql`
   query {
