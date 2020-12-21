@@ -24,6 +24,7 @@ const Header = ({href}) => (
       <Nav.Link href="/#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
       <Nav.Link href="/#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
       <Nav.Link href="/musing" style={{color: 'black'}}><h1>musing</h1></Nav.Link>
+      <Nav.Link href="/coding" style={{color: 'black'}}><h1>coding</h1></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </div>

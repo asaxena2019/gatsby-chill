@@ -1,17 +1,34 @@
 const path = require("path")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
-exports.onCreateNode = ({ node, getNode, actions }) => {
+
+exports.onCreateNode = async({ node, actions, getNode, store, cache, createNodeId, }) => {
   const { createNodeField } = actions
+  const { createNode } = actions
+  const { createRemoteFileNode } = require("gatsby-source-filesystem")
+
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const value = createFilePath({ node, getNode })
     createNodeField({
-      node,
       name: `slug`,
-      value: slug,
+      node,
+      value,
     })
   }
+  if (node.internal.type === "googleSheetSheet1Row") {
+    const fileNode = await createRemoteFileNode({
+    store,
+    cache,
+    createNode,
+    parentNodeId: node.id,
+    createNodeId,
+    })
+    if(fileNode){
+      node.localFeaturedImage___NODE = fileNode.id
+    }
 }
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve("src/templates/blogTemplate.js")

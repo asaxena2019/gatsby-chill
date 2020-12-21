@@ -35,6 +35,12 @@ module.exports = {
       path: `${__dirname}/src/markdown-pages`,
       },
     },
+    {
+    resolve: 'gatsby-source-google-sheets',
+    options:{
+      spreadsheetId:'1rg3ZvIx91MATY8SItXErB61Pi03pfdhioiOaYJLNjxs', worksheetTitle:'Sheet1', credentials:require('./secret.json')
+    },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

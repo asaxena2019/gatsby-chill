@@ -10,8 +10,10 @@ export default function Template({
   return (
     <Layout className="blog-post-container">
       <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <a href="/musing">back to home page</a>
+        <h2>{frontmatter.title}</h2>
+        <small>{frontmatter.date}</small>
+        <p>{frontmatter.description}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -28,6 +30,7 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
       }
     }
   }

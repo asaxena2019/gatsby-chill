@@ -1,37 +1,81 @@
 import React from "react"
-import { graphql } from "gatsby"
-import PostLink from "../components/post-link"
+import { Link, graphql } from "gatsby"
+import SEO from "../components/seo"
+
 import Layout from "../components/layout"
 
-const Musing = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+const BlogIndex = ({ data }) => {
+  const posts = data.allMarkdownRemark.nodes
 
-  return <Layout>
-      <h2>page under construction!</h2>
-      <div>{Posts}</div>
+  if (posts.length === 0) {
+    return (
+      <Layout>
+        <SEO title="musing" />
+        <h2>
+          no blog posts yet!
+        </h2>
+      </Layout>
+    )
+  }
+
+  return (
+    <Layout>
+      <SEO title="musing" />
+      <ol style={{ listStyle: `none` }}>
+        {posts.map(post => {
+          const title = post.frontmatter.title || post.fields.slug
+
+          return (
+            <li key={post.fields.slug}>
+              <article
+                className="post-list-item"
+                itemScope
+                itemType="http://schema.org/Article"
+              >
+                <header>
+                  <h2>
+                    <Link to={post.fields.slug} itemProp="url">
+                      <span itemProp="headline">{title}</span>
+                    </Link>
+                  </h2>
+                  <small>{post.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: post.frontmatter.description || post.excerpt,
+                    }}
+                    itemProp="description"
+                  />
+                </section>
+              </article>
+            </li>
+          )
+        })}
+      </ol>
     </Layout>
+  )
 }
 
-export default Musing
+export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-          }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
         }
       }
     }

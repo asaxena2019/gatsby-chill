@@ -1,7 +1,8 @@
 ---
-slug: "/post-1"
-date: "2018-05-04"
-title: "My first blog post"
-tags: ["trying this out", "one"]
+slug: "/looking-forward-to-my-20s"
+date: "2020-12-18"
+title: "looking forward to my 20s"
+tags: ["reflections"]
+description: "an ode to my first two decades and promises for the next"
 ---
-hello world!
+trying to find the words for this is hard.
