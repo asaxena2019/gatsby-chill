@@ -17,6 +17,7 @@ exports.onCreateNode = async({ node, actions, getNode, store, cache, createNodeI
   }
   if (node.internal.type === "googleSheetSheet1Row") {
     const fileNode = await createRemoteFileNode({
+    url: node.remote,
     store,
     cache,
     createNode,

@@ -31,6 +31,7 @@ const BlogIndex = ({ data }) => {
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           return (
+            <div style={{borderBottom: "1px solid gray"}}>
             <li key={post.fields.slug}>
               <article
                 className="post-list-item"
@@ -55,6 +56,7 @@ const BlogIndex = ({ data }) => {
                 </section>
               </article>
             </li>
+            </div>
           )
         })}
       </ol>
