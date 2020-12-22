@@ -11,13 +11,16 @@ export default function Template({
     <Layout className="blog-post-container">
       <div className="blog-post">
         <a href="/musing">back to home page</a>
+        <br></br><br></br>
         <h2>{frontmatter.title}</h2>
-        <small>{frontmatter.date}</small>
-        <p>{frontmatter.description}</p>
+        <h4>{frontmatter.date}</h4>
+        <h4><i>{frontmatter.description}</i></h4>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <br></br>
+        <a href="/musing">back to home page</a>
       </div>
     </Layout>
   )
@@ -31,6 +34,13 @@ export const query = graphql`
         slug
         title
         description
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

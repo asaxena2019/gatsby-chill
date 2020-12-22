@@ -11,6 +11,9 @@ const BlogIndex = ({ data }) => {
     return (
       <Layout>
         <SEO title="musing" />
+        <h1>welcome to my thoughts!</h1>
+        <h2>here you will find all things personal, perky, and professional</h2>
+        <h3>to check out my technical posts exclusively, go to <a href="https://coffeecoders.medium.com/">my medium page</a></h3>
         <h2>
           no blog posts yet!
         </h2>
@@ -21,10 +24,12 @@ const BlogIndex = ({ data }) => {
   return (
     <Layout>
       <SEO title="musing" />
+      <h2>welcome to my thoughts!</h2>
+      <p>here you will find all things personal, perky, and professional.</p>
+      <p>to check out my technical posts exclusively, go to <a href="https://coffeecoders.medium.com/">my medium page</a> :)</p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-
           return (
             <li key={post.fields.slug}>
               <article
@@ -32,21 +37,21 @@ const BlogIndex = ({ data }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
+                <header style={{marginBottom: `0.5rem`,}}>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <h4>{post.frontmatter.date}</h4>
                 </header>
                 <section>
-                  <p
+                  <i><h4
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
                     }}
                     itemProp="description"
-                  />
+                  /></i>
                 </section>
               </article>
             </li>

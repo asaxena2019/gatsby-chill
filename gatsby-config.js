@@ -36,6 +36,36 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              showCaptions: true
+            }
+          },
+        ]
+      }
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/anushkasaxena.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
     resolve: 'gatsby-source-google-sheets',
     options:{
       spreadsheetId:'1rg3ZvIx91MATY8SItXErB61Pi03pfdhioiOaYJLNjxs', worksheetTitle:'Sheet1', credentials:require('./secret.json')

@@ -19,14 +19,14 @@ const IndexPage = () => (
     <section id="intro">
       <Intro />
     </section>
-    <section id="learning">
-      <Education />
+    <section id="building">
+      <Projects />
     </section>
     <section id="working">
       <Experience />
     </section>
-    <section id="building">
-      <Projects />
+    <section id="learning">
+      <Education />
     </section>
   </Layout>
 )
