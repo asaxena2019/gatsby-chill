@@ -7,20 +7,6 @@ import Layout from "../components/layout"
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
 
-  if (posts.length === 0) {
-    return (
-      <Layout>
-        <SEO title="musing" />
-        <h1>welcome to my thoughts!</h1>
-        <h2>here you will find all things personal, perky, and professional</h2>
-        <h3>to check out my technical posts exclusively, go to <a href="https://coffeecoders.medium.com/">my medium page</a></h3>
-        <h2>
-          no blog posts yet!
-        </h2>
-      </Layout>
-    )
-  }
-
   return (
     <Layout>
       <SEO title="musing" />
@@ -39,15 +25,15 @@ const BlogIndex = ({ data }) => {
                 itemType="http://schema.org/Article"
               >
                 <header style={{marginBottom: `0.5rem`,}}>
-                  <h2>
+                  <h3>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
-                  </h2>
-                  <h4>{post.frontmatter.date}</h4>
+                  </h3>
+                  <h5>{post.frontmatter.date}</h5>
                 </header>
                 <section>
-                  <i><h4
+                  <i><h5
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
                     }}
