@@ -3,11 +3,11 @@ slug: "/foundations-of-web-dev-part-1"
 date: "2020-07-28"
 title: "Foundations of Web Development Series, Part 1: Git Basics"
 tags: ["guides"]
-description: "learn Git and master the foundations of web development"
+description: "learn git and become master of all"
 ---
 ___
 
-*Notes: This article can also be found [here](https://medium.com/swlh/foundations-of-web-development-series-part-i-git-basics-f35ecfffe26b).*
+*Notes: This article can also be found in [The Startup](https://medium.com/swlh/foundations-of-web-development-series-part-i-git-basics-f35ecfffe26b).*
 
 ___
 

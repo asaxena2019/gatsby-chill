@@ -10,7 +10,7 @@ export default function Template({
   return (
     <Layout className="blog-post-container">
       <div className="blog-post">
-        <a href="/musing">back to home page</a>
+        <a href="/musing">back to musing</a>
         <br></br><br></br>
         <h2>{frontmatter.title}</h2>
         <h4>{frontmatter.date}</h4>
@@ -20,7 +20,7 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <br></br>
-        <a href="/musing">back to home page</a>
+        <a href="/musing">back to musing</a>
       </div>
     </Layout>
   )

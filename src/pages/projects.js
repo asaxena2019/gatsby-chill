@@ -8,6 +8,7 @@ import "./pages.css"
 const Projects = () => (
   <div>
     <h2>{ProjData.title}</h2>
+    <p>you can also find my day-to-day projects at <a href="/coding">coding</a> :)</p>
     <Container>
     <Row>
       {ProjData.projects.map((data, index) => {
@@ -30,6 +31,7 @@ const Projects = () => (
       })}
       </Row>
       </Container>
+      <br></br>
   </div>
 )
 
