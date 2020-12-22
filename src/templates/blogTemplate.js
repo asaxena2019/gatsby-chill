@@ -34,13 +34,6 @@ export const query = graphql`
         slug
         title
         description
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }

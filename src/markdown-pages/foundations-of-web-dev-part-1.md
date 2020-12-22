@@ -29,11 +29,11 @@ BE EXTREMELY CAREFUL WITH YOUR COMMAND LINE! It communicates directly with the c
 The **remote** repository is where you can upload your code after you are done testing it on your local system. Here, other people can get your code and collaborate with you, depending on whether you set your repository to be public or private. The most common remote repository and the one that many companies use is [**Github**]
 (https://github.com/).
 
-*![Github Main Page](./web-dev-part-1/github.png "Github Main Page")*
+*![Github Main Page](../images/web-dev-part-1/github.png "Github Main Page")*
 
 I highly recommend that you create an account. There are a ton of resources available on different repositories, and if you are new to Git, there are a ton of open source applications that walk first-time contributors through the process. You can check out a good list [here](https://github.com/up-for-grabs/up-for-grabs.net).
 
-*![My Personal Github Account with My Remote Repositories](./web-dev-part-1/repo.png "My Personal Github Account with My Remote Repositories")*
+*![My Personal Github Account with My Remote Repositories](../images/web-dev-part-1/repo.png "My Personal Github Account with My Remote Repositories")*
 
 **Version** means that a user can save the history of the code changes through **commits**. In my opinion, this is the best and most important part of Git.
 
@@ -45,7 +45,7 @@ With Git, it’s much easier to keep track of all the versions you have through 
 
 A **branch** contains a version of your code. You typically start with the **master** branch, aka the main branch. In most cases, your final code will also reside in this branch. Some projects will rename its master branch to the **production** branch to indicate that this branch’s code is being actively deployed elsewhere. We will cover deployment later. Another common branch is **staging**, a branch to test your product on your remote repository. We have a staging branch for our website to test our features and see if everything is properly deployed.
 
-*![Branch menu on a remote repository in Github](./web-dev-part-1/branch.png "Branch menu on a remote repository in Github")*
+*![Branch menu on a remote repository in Github](../images/web-dev-part-1/branch.png "Branch menu on a remote repository in Github")*
 
 Let’s say you are building a website, and you want to integrate a search function, but you’re not sure if you want to incorporate it into the final product yet. You can create a branch from that moment in your code’s history and call it to search. While you are working on the search branch, the code on that branch will not be affected by any changes in the master branch, nor will the master branch be affected by any changes in the search branch. Once you are satisfied with this branch, you can **merge** it with the master branch, **check out** the master branch, and continue making changes to the master branch.
 
@@ -53,7 +53,7 @@ To further our example, let’s say you continue making changes to the master br
 
 Branches are typically used to track the history of different features. Some projects will use branches to distinguish between versions from different contributors, but there is another feature that can also achieve that: **forks**. Users can copy the codebase across different remote repositories with forks. From whatever point in time a user forks a repo, that user will have access to all the files and versions from the original repository. Any changes that the user makes on their forked repository, however, will again not affect the original repository, and the same applies vice versa. Forks can also be merged.
 
-*![Fork the Repository Here](./web-dev-part-1/fork.png "Fork the Repository Here")*
+*![Fork the Repository Here](../images/web-dev-part-1/fork.png "Fork the Repository Here")*
 
 ### Basic Commands
 
@@ -128,3 +128,4 @@ git clone <repository-link>
 Clones repository on the local repository
 
 Thank you for reading! Part II and III will be released soon. Please let me know if I should add anything. You can find me on [Twitter](http://twitter.com/c0ffeec0ders) or [Linkedin](https://www.linkedin.com/in/anushka-saxena-b40aa2165/).
+___
