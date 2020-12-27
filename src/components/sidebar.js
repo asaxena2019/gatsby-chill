@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Tooltip from 'react-bootstrap/Tooltip'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 
-import "./pages.css"
+import "./layout.css"
 
 const renderLinkedInTooltip = (props) => (
   <Tooltip id="button-tooltip" {...props}>

@@ -8,14 +8,12 @@ import Intro from "./intro"
 import Education from "./education"
 import Experience from "./experience"
 import Projects from "./projects"
-import Sidebar from "./sidebar"
 
 import "./pages.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="home" />
-    <Sidebar></Sidebar>
     <section id="intro">
       <Intro />
     </section>

@@ -14,6 +14,7 @@ return (
     <Layout>
         <SEO title="coding" />
         <h2>check out what i'm coding here!</h2>
+        <p>for updates, follow my dev account on twitter <a href="https://twitter.com/c0ffeec0ders">@c0ffeec0ders</a></p>
         <Row>
                 <Col>
                     <h5>date</h5>
