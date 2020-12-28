@@ -2,7 +2,7 @@ title: building
 projects:
       - title: 🍍 pineapples
         date: october 2020
-        description: a collaborative blackboard for residential communities. using react, sockets.io, and p5.js
+        description: a collaborative blackboard for residential communities
         links:
             - item: github
               link: https://github.com/asaxena2019/pineapples
@@ -17,23 +17,13 @@ projects:
             - item: template
               link: http://anushkasaxena2000.github.io/
       - title: 🐶 scottylabs careers
-        date: june-july 2020
+        date: june - july 2020
         description: a webpage with professional opportunities for the scottylabs community. using react, node.js, and google api.
         links: 
             - item: github
               link: https://github.com/asaxena2019/careerserver
             - item: template
               link: https://careers.scottylabs.org/
-      - title: 🥄 a taste of africa
-        date: june-july 2020
-        description: an e-commerce website for a catering busines as a part of levare. using gatsby and google api. 
-        links:
-            - item: github
-              link: https://github.com/atasteofafrica/atasteofafrica.github.io
-            - item: website
-              link: https://atasteofafrica.netlify.app/
-            - item: levare
-              link: http://levareorg.com/
       - title: 🍔 feed the burghers
         date: october 2019
         description: an app to connect food sources to those in need in the pittsburgh area. won best social hack @ hackcmu 2019. 

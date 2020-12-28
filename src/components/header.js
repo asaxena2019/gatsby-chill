@@ -2,7 +2,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 
 const Header = ({href}) => (
   
@@ -21,16 +20,8 @@ const Header = ({href}) => (
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/" style={{color: 'black'}}><h1>home</h1></Nav.Link>
-      <Nav.Link href="/#learning" style={{color: 'black'}}><h1>learning</h1></Nav.Link>
-      <Nav.Link href="/#working" style={{color: 'black'}}><h1>working</h1></Nav.Link>
-      <Nav.Link href="/#building" style={{color: 'black'}}><h1>building</h1></Nav.Link>
-      <h1>
-      <NavDropdown title="more" id="basic-nav-dropdown" style={{color: 'black'}}>
-        <NavDropdown.Item href="/musing" style={{color: 'black'}}>musing</NavDropdown.Item>
-        <NavDropdown.Item href="/coding" style={{color: 'black'}}>coding</NavDropdown.Item>
-        <NavDropdown.Item href="/freelancing" style={{color: 'black'}}>freelancing</NavDropdown.Item>
-      </NavDropdown>
-      </h1>
+      <Nav.Link href="/musing" style={{color: 'black'}}><h1>musing</h1></Nav.Link>
+      <Nav.Link href="/coding" style={{color: 'black'}}><h1>coding</h1></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </div>

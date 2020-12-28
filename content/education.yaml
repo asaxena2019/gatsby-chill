@@ -21,10 +21,11 @@ coursework:
       - item: Differential Equations
       - item: Calculus in Three Dimensions
       - item: Matrix Algebra with Applications
+      - item: Introduction to Statistical Inferences
 skills:
       programming:
       - item: Python, Java, C
       scripting:
-      - item: HTML, CSS, JavaScript, React, Node, Gatsby, Ruby, Jekyll
+      - item: HTML, CSS, JavaScript, React, Node, Firebase, Gatsby, Ruby, Jekyll
       hardware:
       - item: Hardware Arduino, SolidWorks, AutoDesk, Grasshopper, Rhino, Raspberry Pi

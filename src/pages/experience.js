@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card'
 const Experience = () => (
   <div>
     <h2>{ExpData.title}</h2>
-    <Accordion defaultActiveKey='1'>
+    <Accordion>
       {ExpData.jobs.map((data, index) => {
         return <Card>          
           <Accordion.Toggle as={Card.Header} eventKey={`${index}`} style={{background: `#FFFFFF`}}>

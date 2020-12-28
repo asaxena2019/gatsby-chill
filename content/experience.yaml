@@ -1,8 +1,15 @@
 title: working
 jobs:
+      - company: Intel
+        role: Software Engineer Intern
+        date: Summer 2021
+        description: Working within Client Computing Group
+        tasks:
+          - title: To be determined!
+            description: :)
       - company: Rapid Prototyping Technologies and Intermediate Rapid Prototyping
         role: Teaching Assistant
-        date: Fall 2020
+        date: Fall 2020 - Present
         description: Helping students connect code and design to create beautiful products - even during a global pandemic.
         tasks:
           - title: Hold office hours for ten+ students
