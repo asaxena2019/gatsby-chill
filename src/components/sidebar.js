@@ -36,8 +36,13 @@ const renderMediumTooltip = (props) => (
   </Tooltip>
 );
 
+const renderBookmarksTooltip = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Bookmarks
+  </Tooltip>
+);
+
 const Sidebar = () => (
-  
     <div class="sidenav">
       <OverlayTrigger
       placement="left"
@@ -73,6 +78,15 @@ const Sidebar = () => (
       overlay={renderTwitterTooltip}
       >
       <a href="https://twitter.com/c0ffeec0ders" aria-label="twitter" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+      </OverlayTrigger>
+      <OverlayTrigger
+      placement="left"
+      delay={{ show: 250, hide: 400 }}
+      overlay={renderBookmarksTooltip}
+      >
+      <a href="https://www.notion.so/bookmarks-0738cdf4bb824e6699f2d0d81c5d0b7f" aria-label="bookmarks" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-book-fill" viewBox="0 0 24 24">
+      <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+      </svg></a>
       </OverlayTrigger>
     </div>
 )
