@@ -1,17 +1,5 @@
 title: doing
 projects:
-      - group: scottylabs
-        role: director of events
-        link: http://scottylabs.org/
-        date: 2019 - present
-        description: tech organization on campus that hosts hackathons, builds APIs, and designs cool things
-        links:
-            - item: led web development weekened
-              link: https://wdw.scottylabs.org/
-            - item: led crash course weekend
-              link: https://crashcourse.scottylabs.org/
-            - item: organizing tartanhacks
-              link: https://tartanhacks.com/
       - group: robotics club
         role: secretary
         link: http://roboticsclub.org/
@@ -28,11 +16,3 @@ projects:
         links:
             - item: teaching pittsburgh students how to code
               link:
-      - group: levare
-        role: web developer volunteer
-        link: http://levareorg.com/
-        date: summer 2020
-        description: connects volunteers with poc-owned businesses
-        links:
-            - item: created an e-commerce website for a catering business
-              link: https://atasteofafrica.netlify.app/

@@ -25,6 +25,9 @@ const Experience = () => (
                 </li>
               })}
             </ul>
+            {data.links.map((external, index) => {
+                  return <Card.Link href={ external.link } target="_blank" rel="noreferrer" key={`content_item_${index}`}>{ external.title }</Card.Link>
+            })}
             </Card.Body>
             </Accordion.Collapse>
           </Card>

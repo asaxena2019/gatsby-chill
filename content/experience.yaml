@@ -7,6 +7,9 @@ jobs:
         tasks:
           - title: To be determined!
             description: :)
+        links:
+          - title: Intel Website
+          - link: https://www.intel.com/content/www/us/en/homepage.html
       - company: Rapid Prototyping Technologies and Intermediate Rapid Prototyping
         role: Teaching Assistant
         date: Fall 2020 - Present
@@ -16,6 +19,25 @@ jobs:
             description: to help students one-on-one with CAD, Python, Grasshopper, Rhino, and ideation.
           - title: Grade projects
             description: and provide feedback to improve their design-thinking process.
+        links:
+          - title: 294 Website
+            link: https://www.cs.cmu.edu/afs/cs/academic/class/15294-f20/
+          - title: 394 Website
+            link: https://www.cs.cmu.edu/afs/cs/academic/class/15394-f20/
+      - company: ScottyLabs
+        role: Director of Events
+        date: Spring 2020 - Present
+        description: We host hackathons, build APIs, and design cool things
+        tasks:
+          - title: Planning TartanHacks,
+            description: Carnegie Mellon's largest hackathon, and run workshops on how to build hackathon projects
+          - title: Leading Web Development Weekend,
+            description: a series of educational workshops designed to introduce underclassmen to web dev skills
+          - title: Leading Crash Course,
+            description: a series of talks designed to introduce topics such as mobile development, machine learning, and blockchain
+        links:
+          - title: ScottyLabs
+            link: http://scottylabs.org/
       - company: Bank of America
         role: Freshman Technical Analyst Intern
         date: Summer 2020
@@ -29,3 +51,19 @@ jobs:
             description: analyzed from 250 stock options using Excel and Python. Placed in top 10 out of 200 stock portfolios for the highest return on investment.
           - title: Environmental, Social, and Governance Proposal
             description: to ensure students remain on their career pipeline. Acted as cohorot representative and communicated with representatives from the ESG group at the Bank.
+        links:
+          - title: BoA Website
+            link: https://www.bankofamerica.com/
+      - company: Levare
+        role: Web Developer Volunteer
+        date: Summer 2020
+        description: Connecting POC-owned businesses and volunteers to make a difference in their communities
+        tasks:
+          - title: Developed an eCommerce website from sctatch
+            description: for a POC-owned business in California using Gatsby, GraphQL, Bootstrap, Google APIs, and Netlify CMS.
+        links:
+          - title: A Taste of Africa
+            link: https://atasteofafrica.netlify.app/
+          - title: Levare
+            link: http://levareorg.com/
+          
