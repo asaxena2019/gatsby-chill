@@ -20,9 +20,9 @@ jobs:
           - title: Grade projects
             description: and provide feedback to improve their design-thinking process.
         links:
-          - title: 294 Website
+          - title: 15-294 Website
             link: https://www.cs.cmu.edu/afs/cs/academic/class/15294-f20/
-          - title: 394 Website
+          - title: 15-394 Website
             link: https://www.cs.cmu.edu/afs/cs/academic/class/15394-f20/
       - company: ScottyLabs
         role: Director of Events
@@ -61,6 +61,8 @@ jobs:
         tasks:
           - title: Developed an eCommerce website from sctatch
             description: for a POC-owned business in California using Gatsby, GraphQL, Bootstrap, Google APIs, and Netlify CMS.
+          - title: Collaborated remotely with UI/UX designers, graphic designers, and business analysts
+            description: and created tutorials for them on Git workflow, command line, node package manager, and deployment.
         links:
           - title: A Taste of Africa
             link: https://atasteofafrica.netlify.app/

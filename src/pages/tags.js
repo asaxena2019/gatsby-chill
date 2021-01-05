@@ -1,12 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout"
-
+import SEO from "../components/seo"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 
 // Components
-import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 const TagsPage = ({
@@ -18,7 +17,7 @@ const TagsPage = ({
   },
 }) => (
   <Layout>
-    <Helmet title={title} />
+    <SEO title="tags" />
     <div>
       <h1>Tags</h1>
       <ul>
@@ -30,6 +29,7 @@ const TagsPage = ({
           </li>
         ))}
       </ul>
+      <Link to="/musing">back to musing</Link>
     </div>
   </Layout>
 )

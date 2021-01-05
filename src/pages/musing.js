@@ -1,18 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import SEO from "../components/seo"
-
+import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
+import "./pages.css"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
-
   return (
     <Layout>
       <SEO title="musing" />
+
       <h2>welcome to my thoughts!</h2>
       <p>here you will find all things personal, perky, and professional.</p>
       <p>to check out my technical posts exclusively, go to <a href="https://coffeecoders.medium.com/">my medium page</a> :)</p>
+      <p><a href="\musing">musing</a> | <a href="\tags">tags</a> | <a href="\archives">archives</a> </p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -31,6 +33,13 @@ const BlogIndex = ({ data }) => {
                     </Link>
                   </h3>
                   <h5>{post.frontmatter.date}</h5>
+                  {post.frontmatter.tags.map(tag => {
+                    return(
+                      <Link to={`/tags/${kebabCase(tag)}/`} key={tag}>
+                        {tag}&nbsp;
+                      </Link>
+                    )
+                  })}
                 </header>
                 <section>
                   <i><h5
@@ -69,7 +78,12 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          tags
         }
+      }
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }
