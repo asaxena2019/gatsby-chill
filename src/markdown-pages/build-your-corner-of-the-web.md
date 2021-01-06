@@ -52,7 +52,7 @@ As a student and aspiring software developer, I want my website to display all f
 
 #### building
 
-Out of everything, I am most excited to display my projects. This is where I display my pure passions. They include club, school, and personal projects, ranging from [catering websites] to a [spin-off of a classic game]. I might add a freelancing tab later on.
+Out of everything, I am most excited to display my projects. This is where I display my pure passions. They include club, school, and personal projects, ranging from [catering websites](https://atasteofafrica.netlify.app/) to a [spin-off of a classic game](https://github.com/asaxena2019/pacman). I might add a freelancing tab later on.
 
 I used [cards](https://react-bootstrap.github.io/components/cards/) to display information about my projects, including title, description, and links, but other viable components are [accordions](https://react-bootstrap.github.io/components/accordion/), [flipping cards](https://reactjsexample.com/flipping-cards-for-your-react-projects/), and [list groups](https://react-bootstrap.github.io/components/list-group/). 
 
