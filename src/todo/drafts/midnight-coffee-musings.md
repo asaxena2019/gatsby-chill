@@ -2,7 +2,7 @@
 slug: "/midnight-coffee-musings"
 date: "2020-12-31"
 title: "midnight coffee musings"
-tags: ["reflection"]
+tags: ["reflecting"]
 description: "random things i think of at night"
 ---
 ___

@@ -2,7 +2,7 @@
 slug: "/foundations-of-web-dev-part-1"
 date: "2020-07-28"
 title: "Foundations of Web Development Series, Part 1: Git Basics"
-tags: ["guide"]
+tags: ["technical guide"]
 description: "learn git and become master of all"
 ---
 ___
