@@ -4,25 +4,3 @@
     margin: auto;    
     display: block;
 }
-
-.tag-sidenav {
-    width:9rem;
-    position: fixed;
-    z-index: 1;
-    top: 30%;
-    left: 0px;
-    background: rgb(255, 255, 255);
-    overflow-x: hidden;
-    padding: 8px 0;
-}
-  
-  .tag-sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    color: #2196F3;
-    display: block;
-  }
-  
-  .tag-sidenav a:hover {
-    color: #064579;
-  }

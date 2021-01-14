@@ -13,6 +13,8 @@ import Header from "./header"
 import "./layout.css"
 import Sidebar from "./sidebar"
 
+import 'fontsource-lora';
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

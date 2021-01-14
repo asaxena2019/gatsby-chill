@@ -13,8 +13,7 @@ const BlogIndex = ({ data }) => {
 
       <h2>welcome to my thoughts!</h2>
       <p>here you will find all things personal, perky, and professional.</p>
-      <p>to check out my technical posts exclusively, go to <a href="https://coffeecoders.medium.com/">my medium page</a> :)</p>
-      <p><a href="\musing">musing</a> | <a href="\tags">tags</a> | <a href="\archives">archives</a> </p>
+      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="\tags">tags</a> </p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
