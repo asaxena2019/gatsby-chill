@@ -12,7 +12,7 @@ ___
 
  looking back, i remember feeling hysterical sending this over a discord server past midnight on the last day of the year. my friends were discussing resolutions, a topic that i've dismissed time and time again. being pulled in many different directions in the mere time i've been on earth has taught me only one thing: unpredictability. setting artificial goals at a time of high emotions has not proven successful in motivating me. 
  
- instead, i'm driven by the questions that pound my head every time i open twitter or turn on the evening news. even more so after a tumultuous year, i question why aren't we progressing. the questions i have are being researched, the philosophies i question have been in place for ages, and solutions *are* being found. so why don't i know it? there's a fire burning in me to search for answers, a fire i've been desparately trying to spark for years. i'll use its light to guide me, not over a concept of time but rather the duration of my curiosity.
+ instead, i'm driven by the questions that pound my head every time i open twitter or turn on the evening news. even more so after a tumultuous year, i question why aren't we progressing. however, the questions i have are being researched, the philosophies i question have been in place for ages, and solutions *are* being found. so why don't i know it? there's a fire burning in me to search for answers, a fire i've been desperately trying to spark for years. i'll use its light to guide me, not over a concept of time but rather the duration of my curiosity.
  
  after waking up the next morning, my body is rested. time to learn.
 ___

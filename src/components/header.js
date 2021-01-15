@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav'
 const Header = ({href}) => (
   
   <Navbar sticky="top" expand="lg" style={{
-    background: `#E6E6FA`,
+    background: `#E9D3BD`,
     marginBottom: `1.45rem`,
   }}>
     <div
