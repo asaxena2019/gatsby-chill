@@ -58,7 +58,7 @@ const BlogIndex = ({ data }) => {
 
       <br></br>
       <h2>pieces from other parts of the web</h2>
-      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href='https://coffeecoders.substack.com/' target="_blank" rel="noreferrer">substack</a></p>
+      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href='https://coffeecoders.substack.com/' target="_blank" rel="noreferrer">substack</a> | <a href='https://reading.supply/@anushka' target="_blank" rel="noreferrer">reading.supply</a></p>
       <ol style={{ listStyle: `none` }}>
         {ExternalLinks.pieces.reverse().map(post => {
           return (

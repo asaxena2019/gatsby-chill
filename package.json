@@ -21,6 +21,7 @@
     "gatsby-plugin-offline": "^3.2.38",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sharp": "^2.11.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-images": "^3.8.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-source-filesystem": "^2.7.0",

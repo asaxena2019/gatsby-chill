@@ -71,8 +71,17 @@ module.exports = {
       spreadsheetId:'1rg3ZvIx91MATY8SItXErB61Pi03pfdhioiOaYJLNjxs', worksheetTitle:'Sheet1', credentials:require('./secret.json')
     },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Lora"],
+          urls: ["/component/layout.css"],
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

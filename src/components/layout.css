@@ -26,6 +26,10 @@
 * {
   font-family: 'Lora', serif;
 }
+@font-face {
+  font-family: "Lora";
+  src: url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+}
 
 html {
   -ms-text-size-adjust: 100%;

@@ -8,6 +8,7 @@ description: "things i want to discover and share"
 ___
 notes, love letters, and knowledge to come. i'm sharing this to hold myself accountable and make myself comfortable with my writings on the internet.
 
+*updated january 14th*
 - run a hackathon with me
 - look forward to my 20s
 - tools to bring to the next year
@@ -17,8 +18,6 @@ notes, love letters, and knowledge to come. i'm sharing this to hold myself acco
 - cognitive systems in society: a collection of essays
 - art in private
 - a tale of two cities
-
-*updated january 14th*
-- 1984
-- typos and twitter
+- freedom of speech
+- evolution of typos
 ___
