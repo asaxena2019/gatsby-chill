@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import SEO from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
+import ExternalLinks from "../../content/external.yaml"
 import "./pages.css"
 
 const BlogIndex = ({ data }) => {
@@ -11,9 +12,9 @@ const BlogIndex = ({ data }) => {
     <Layout>
       <SEO title="musing" />
 
-      <h2>welcome to my thoughts!</h2>
-      <p>here you will find all things personal, perky, and professional.</p>
-      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="\tags">tags</a> </p>
+      <h2>words that matter to me</h2>
+      <p><a href="\tags">tags</a></p>
+      
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -44,6 +45,42 @@ const BlogIndex = ({ data }) => {
                   <i><h5
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
+                    }}
+                    itemProp="description"
+                  /></i>
+                </section>
+              </article>
+            </li>
+            </div>
+          )
+        })}
+      </ol>
+
+      <br></br>
+      <h2>pieces from other parts of the web</h2>
+      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href='https://coffeecoders.substack.com/' target="_blank" rel="noreferrer">substack</a></p>
+      <ol style={{ listStyle: `none` }}>
+        {ExternalLinks.pieces.reverse().map(post => {
+          return (
+            <div style={{borderBottom: "1px solid gray"}}>
+            <li key={post.link}>
+              <article
+                className="post-list-item"
+                itemScope
+                itemType="http://schema.org/Article"
+              >
+                <header style={{marginBottom: `0.5rem`,}}>
+                  <h3>
+                    <Link to={post.link} itemProp="url" target="_blank" rel="noreferrer">
+                      <span itemProp="headline">{post.title}</span>
+                    </Link>
+                  </h3>
+                  <h5>{post.date}</h5>
+                </header>
+                <section>
+                  <i><h5
+                    dangerouslySetInnerHTML={{
+                      __html: post.description,
                     }}
                     itemProp="description"
                   /></i>

@@ -1,0 +1,19 @@
+title: external
+pieces:
+      - title: 'Foundations of Web Development Series, Part 1: Git Basics'
+        link: https://medium.com/swlh/foundations-of-web-development-series-part-i-git-basics-f35ecfffe26b
+        date: July 28, 2020
+        description: learn git and become master of all
+      - title: 'Foundations of Web Development Series, Part 2: Creating Your Website'
+        link: https://medium.com/swlh/foundations-of-web-development-series-part-ii-creating-your-website-8c1f29a1d13a
+        date: August 14, 2020
+        description: create websites from scratch and dominate the internet
+      - title: 'Foundations of Web Development Series, Part 3: Deploying Your Website'
+        link: https://medium.com/weekly-webtips/foundations-of-web-development-series-part-iii-deploying-your-website-c3f3e3360059
+        date: August 16, 2020
+        description: time to show the world what you're made of
+      - title: 'Build Your Corner of the Web'
+        link: https://medium.com/weekly-webtips/foundations-of-web-development-series-part-iii-deploying-your-website-c3f3e3360059
+        date: January 6, 2020
+        description: new year, new (read)me!
+      
