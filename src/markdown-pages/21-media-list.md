@@ -1,5 +1,5 @@
 ---
-slug: "/21-reading-list"
+slug: "/21-media-list"
 date: "2021-01-07"
 title: "2021 media list"
 tags: ["reading",  "listening", "watching"]
@@ -8,9 +8,9 @@ description: "consuming media responsibly"
 ___
 one thing i've become more conscious about is the media i interact with every day. although there will be criticism about everything, i try to keep an open mind on pieces and carve my own thoughts on a clean slate.
 
-most of these are recommendations, and i'm always open to more, especially those related to society, civic duty, and the environment :)
+most of these are recommendations, and i'm always open to more, especially those related to technology, sociology, and sustainability :)
 
-*updated january 14*
+*updated january 18*
 
 ##### books
 - hard things about hard things - ben horowitz
@@ -24,6 +24,13 @@ most of these are recommendations, and i'm always open to more, especially those
 - don't make me think - steve krug
 - intelligent investor - benjamin graham
 - mindset - carol dweck
+- dark money - jane mayer
+- educated - tara westover
+- the shallows - nicholas carr
+- weapons of math destruction - cathy o'neil
+- rise of robots - martin ford
+- outliers - malcolm gladwell
+- fairness and machine learning - solon barocas, moritz hardt, arvind narayanan
 
 ##### podcasts
 - how i built this
