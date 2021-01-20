@@ -10,7 +10,7 @@ one thing i've become more conscious about is the media i interact with every da
 
 most of these are recommendations, and i'm always open to more, especially those related to technology, sociology, and sustainability :)
 
-*updated january 18*
+*updated january 19*
 
 ##### books
 - hard things about hard things - ben horowitz
@@ -31,11 +31,15 @@ most of these are recommendations, and i'm always open to more, especially those
 - rise of robots - martin ford
 - outliers - malcolm gladwell
 - fairness and machine learning - solon barocas, moritz hardt, arvind narayanan
+- the art of happiness - dalai lama, howard c. cutler
+- brave new world - aldous huxley
+- 1984 - george orwell
 
 ##### podcasts
 - how i built this
 - woke doctor who
 - lex fridman, specifically the episode with gilbert strang
+- civtech talks
 
 ##### movies and shows
 - the social dilemma

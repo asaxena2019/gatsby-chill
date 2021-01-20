@@ -12,7 +12,7 @@ const BlogIndex = ({ data }) => {
     <Layout>
       <SEO title="musing" />
 
-      <h2>words that matter to me</h2>
+      <h2>native words</h2>
       <p><a href="\tags">tags</a></p>
       
       <ol style={{ listStyle: `none` }}>
@@ -57,10 +57,10 @@ const BlogIndex = ({ data }) => {
       </ol>
 
       <br></br>
-      <h2>pieces from other parts of the web</h2>
-      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href='https://coffeecoders.substack.com/' target="_blank" rel="noreferrer">substack</a> | <a href='https://reading.supply/@anushka' target="_blank" rel="noreferrer">reading.supply</a></p>
+      <h2>pieces from the web</h2>
+      <p><a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href='https://reading.supply/@anushka' target="_blank" rel="noreferrer">reading supply</a> | <a href='https://coffeecoders.substack.com/' target="_blank" rel="noreferrer">substack</a></p>
       <ol style={{ listStyle: `none` }}>
-        {ExternalLinks.pieces.reverse().map(post => {
+        {ExternalLinks.pieces.map(post => {
           return (
             <div style={{borderBottom: "1px solid gray"}}>
             <li key={post.link}>
