@@ -1,13 +1,5 @@
 title: building
 projects:
-      - title: 🅱️ bext bonverter
-        date: december 2020
-        description: a text converter for gen z. using gatsby and javascript.
-        links:
-            - item: github
-              link: https://github.com/asaxena2019/bext-bonverter
-            - item: app
-              link: https://bext-bonverter.netlify.app/
       - title: ⚫ minimal starter
         date: june 2020
         description: a jekyll template for my old portfolio website. using jeykll, ruby, and javascript.
