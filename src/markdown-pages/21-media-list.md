@@ -34,6 +34,12 @@ most of these are recommendations, and i'm always open to more, especially those
 - the art of happiness - dalai lama, howard c. cutler
 - brave new world - aldous huxley
 - 1984 - george orwell
+- overstory - richard powers
+- the ethics of invention - sheila jasanoff
+- algorithms of oppression - safiya umoja noble
+- artificial unintelligence - meredith broussard
+- race after technology - ruha benjamin
+- black software - charlton mcilwain
 
 ##### podcasts
 - how i built this
