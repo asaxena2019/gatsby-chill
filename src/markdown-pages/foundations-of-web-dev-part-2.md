@@ -1,8 +1,9 @@
 ---
 slug: "/foundations-of-web-dev-part-2"
 date: "2020-08-14"
-title: "Foundations of Web Development Series, Part 2: Creating Your Website"
+title: "Foundations of Web Development Series, Part II: Creating Your Website"
 tags: ["technical guide"]
+link: https://medium.com/swlh/foundations-of-web-development-series-part-ii-creating-your-website-8c1f29a1d13a
 description: "create websites from scratch and dominate the internet"
 ---
 ___

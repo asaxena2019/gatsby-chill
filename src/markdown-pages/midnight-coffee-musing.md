@@ -3,6 +3,7 @@ slug: "/midnight-coffee-musing"
 date: "2020-12-31"
 title: "midnight coffee musing"
 tags: ["reflecting"]
+link: NA
 description: "random thoughts on the eve of the new year"
 ---
 ___

@@ -3,6 +3,7 @@ slug: "/21-media-list"
 date: "2021-01-07"
 title: "2021 media list"
 tags: ["reading",  "listening", "watching"]
+link: NA
 description: "consuming media responsibly"
 ---
 ___

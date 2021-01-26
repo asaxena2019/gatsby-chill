@@ -3,6 +3,7 @@ slug: "/build-your-corner-of-the-web"
 date: "2021-01-05"
 title: "Build Your Corner of the Web"
 tags: ["make your mark", "technical guide"]
+link: https://coffeecoders.medium.com/build-your-corner-of-the-web-dd6245f1e3d6
 description: "new year, new website time!"
 ---
 ___

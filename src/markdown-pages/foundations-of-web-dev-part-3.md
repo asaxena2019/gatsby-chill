@@ -1,8 +1,9 @@
 ---
 slug: "/foundations-of-web-dev-part-3"
 date: "2020-08-16"
-title: "Foundations of Web Development Series, Part 3: Git Basics"
+title: "Foundations of Web Development Series, Part III: Git Basics"
 tags: ["technical guide"]
+link: https://medium.com/weekly-webtips/foundations-of-web-development-series-part-iii-deploying-your-website-c3f3e3360059
 description: "time to show the world what you're made of"
 ---
 ___
