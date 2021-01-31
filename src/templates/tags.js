@@ -2,6 +2,16 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+var external;
+
+function link(string, slug){
+  if (string === "NA"){
+    external = slug;
+  }
+  else{
+    external = string;
+  }
+}
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -15,9 +25,10 @@ const Tags = ({ pageContext, data }) => {
         {edges.map(({ node }) => {
           const { slug } = node.fields
           const { title } = node.frontmatter
+          link(node.frontmatter.link, slug);
           return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
+            <li>
+              <a href={external} target="_blank" rel="noreferrer">{title}</a>
             </li>
           )
         })}
@@ -65,6 +76,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            link
           }
         }
       }

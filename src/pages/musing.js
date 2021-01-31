@@ -40,7 +40,7 @@ const BlogIndex = ({ data }) => {
               >
                 <header style={{marginBottom: `0.5rem`,}}>
                   <h3>
-                    <a href={external} itemProp="url">
+                    <a href={external} itemProp="url" target="_blank" rel="noreferrer">
                       <span itemProp="headline">{title}</span>
                     </a>
                   </h3>

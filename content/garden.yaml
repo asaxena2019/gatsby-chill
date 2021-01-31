@@ -1,0 +1,26 @@
+title: gardening
+projects:
+      - title: 🅱️ bext converter
+        date: december 2020
+        description: a fun text converter for gen z. inspired by supreme. will be making a chrome extension for it soon. using gatsby and javascript.
+        links:
+          - item: website
+            link: https://bext-bonverter.netlify.app/
+          - item: github
+            link: https://github.com/asaxena2019/bext-bonverter
+      - title: 🟣 gatsby chill
+        date: december 2020
+        description: a gatsby template inspired by this website.
+        links:
+          - item: website
+            link: http://anushkasaxena.me/
+          - item: github
+            link: https://github.com/asaxena2019/gatsby-chill
+      - title: 🍍 pineapple
+        date: august 2020
+        description: a virtual chalkboard and meeting space. continuing to develop for residential communities. using javascript, p5.js, and sockets.io
+        links:
+            - item: website
+              link: http://meet-pineapples.herokuapp.com/
+            - item: github
+              link: https://github.com/asaxena2019/pineapples
