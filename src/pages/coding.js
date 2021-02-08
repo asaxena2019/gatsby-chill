@@ -19,7 +19,7 @@ return (
         <SEO title="coding" />
         <h2>building virtual skyscrapers and digital worlds</h2>
         <h3>technology garden</h3>
-        <p>inspired by <a href="https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/">this article</a>, here are playful projects, work in progresses, and blooming ideas that i've entertained.</p> 
+        <p>inspired by <a href="https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/" target="_blank" rel="noreferrer">this article</a>, here are playful projects, work in progresses, and blooming ideas that i've entertained.</p> 
         
         <Container>
         <Row>
@@ -45,7 +45,7 @@ return (
         </Container>
         <br></br>
         <h3>coding log</h3>
-        <p>for updates, follow my dev account on twitter <a href="https://twitter.com/c0ffeec0ders">@c0ffeec0ders</a>. powered by <a href="http://automate.io/">automate.io</a> and <a href="https://developers.google.com/sheets/api">google sheets api</a>.</p>
+        <p>for updates, follow my dev account on twitter <a href="https://twitter.com/c0ffeec0ders" target="_blank" rel="noreferrer">@c0ffeec0ders</a>. powered by <a href="http://automate.io/" target="_blank" rel="noreferrer">automate.io</a> and <a href="https://developers.google.com/sheets/api" target="_blank" rel="noreferrer">google sheets api</a>.</p>
         <div style={{overflow:"scroll", height:"20rem"}}>
         <Row>
                 <Col>

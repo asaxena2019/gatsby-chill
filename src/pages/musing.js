@@ -4,14 +4,21 @@ import SEO from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import "./pages.css"
-var external;
 
-function link(string, slug){
-  if (string === "NA"){
-    external = slug;
+function external(link, slug, title){
+  if (link === "NA"){
+    return (
+      <Link to={slug} itemProp="url">
+        <span itemProp="headline">{title}</span>
+      </Link>
+    )
   }
   else{
-    external = string;
+    return (
+      <a href={link} itemProp="url" target="_blank" rel="noreferrer">
+        <span itemProp="headline">{title}</span>
+      </a>
+    )
   }
 }
 
@@ -29,7 +36,6 @@ const BlogIndex = ({ data }) => {
       
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          link(post.frontmatter.link, post.fields.slug);
           return (
             <div style={{borderBottom: "1px solid gray"}}>
             <li key={post.fields.slug}>
@@ -40,9 +46,7 @@ const BlogIndex = ({ data }) => {
               >
                 <header style={{marginBottom: `0.5rem`,}}>
                   <h3>
-                    <a href={external} itemProp="url" target="_blank" rel="noreferrer">
-                      <span itemProp="headline">{title}</span>
-                    </a>
+                    {external(post.frontmatter.link, post.fields.slug, title)}
                   </h3>
                   <h5>{post.frontmatter.date}</h5>
                   {post.frontmatter.tags.map(tag => {
