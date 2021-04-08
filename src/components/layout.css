@@ -1,6 +1,13 @@
 /* added */
+.col-section img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+
 .sidenav {
-  width:60px;
+  width: 60px;
   position: fixed;
   z-index: 1;
   top: 30%;
@@ -14,27 +21,31 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #2196F3;
+  color: brown;
   display: block;
 }
 
-.sidenav a:hover {
-  color: #064579;
+a {
+  color: brown !important;
+}
+
+body {
+  background-color: #e9d3bd !important;
 }
 
 /* default */
 * {
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
 }
 @font-face {
-  font-family: "Lora";
-  src: url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+  font-family: "Roboto Mono", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 }
 
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em monospace;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -43,7 +54,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -86,6 +97,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: brown;
 }
 a:active,
 a:hover {
@@ -114,7 +126,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -292,7 +304,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -308,7 +320,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -324,13 +336,15 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
 }
-h2:before,h3:before,h4:before {
+h2:before,
+h3:before,
+h4:before {
   content: " ";
   display: block;
   visibility: hidden;
@@ -347,7 +361,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -363,7 +377,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -464,7 +478,7 @@ blockquote {
   background: #ffffff;
   border-left: 5px solid rgb(230, 227, 227);
   margin: 1.5em 10px;
-  padding: 10px .5em 10px;
+  padding: 10px 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 form {
@@ -599,7 +613,7 @@ code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-  "Liberation Mono", Menlo, Courier, monospace;
+    "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;

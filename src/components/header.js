@@ -4,14 +4,14 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Header = ({href}) => (
-  
+
   <Navbar sticky="top" expand="lg" style={{
     background: `#E9D3BD`,
-    marginBottom: `1.45rem`,
+    marginBottom: `0rem`,
   }}>
     <div
       style={{
-        margin: `0 auto`,
+        margin: `0 0 0 auto`,
         maxWidth: '100%',
         padding: `1.45rem 1.0875rem`,
       }}

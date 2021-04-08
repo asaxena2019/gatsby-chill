@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Gardening from "../../content/garden.yaml"
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import ProjData from "../../content/projects.yaml"
 import "./pages.css"
 
 const Coding = ({ data }) => {
@@ -17,10 +18,31 @@ useEffect(() => {
 return (
     <Layout>
         <SEO title="coding" />
-        <h2>building virtual skyscrapers and digital worlds</h2>
-        <h3>technology garden</h3>
-        <p>inspired by <a href="https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/" target="_blank" rel="noreferrer">this article</a>, here are playful projects, work in progresses, and blooming ideas that i've entertained.</p> 
-        
+        <h2>technology garden</h2>
+        <h3>built</h3>
+        <Container>
+        <Row>
+        {ProjData.projects.map((data, index) => {
+            return <div class="col-md-4 col-xs-6">
+                <Card key={`content_item_${index}`}>
+                <Card.Body>
+                    <Card.Title>{data.title}</Card.Title>
+                    <div class="card-block">
+                    <i><Card.Subtitle className="mb-2 text-muted">{data.date}</Card.Subtitle></i>
+                    <Card.Text>
+                    {data.description}
+                    </Card.Text>
+                    {data.links.map((external, index) => {
+                    return <Card.Link href={ external.link } target="_blank" rel="noreferrer" key={`content_item_${index}`}>{ external.item }</Card.Link>
+                    })}
+                    </div>
+                </Card.Body>
+            </Card>
+            </div>
+        })}
+        </Row>
+        </Container>
+        <h3>building</h3>
         <Container>
         <Row>
         {Gardening.projects.map((data, index) => {
@@ -68,12 +90,12 @@ return (
                     <h6>{post.description}</h6>
                 </Col>
             </Row>
-            
+
         </div>
         ))}
         </div>
     </Layout>
-    
+
     )
 }
 export default Coding

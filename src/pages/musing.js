@@ -24,16 +24,16 @@ function external(link, slug, title){
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
-  
+
   return (
     <Layout>
       <SEO title="musing" />
 
       <h2>on my mind</h2>
-      <p><a href="\tags">tags</a> | <a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="https://reading.supply/@anushka" target="_blank" rel="noreferrer">reading supply</a></p>
-      
+      <a href="\tags">tags</a> | <a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="https://reading.supply/@anushka" target="_blank" rel="noreferrer">reading supply</a>
+
       <ol style={{ listStyle: `none` }}>
-      
+
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           return (

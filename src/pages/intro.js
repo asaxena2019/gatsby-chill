@@ -12,7 +12,7 @@ const Intro = () => (
   <div>
     <h1>hi! i'm <ReactRotatingText items={['anushka', 'an engineer', 'the coffee coder']} /></h1>
     <Row>
-      <Col>
+      <Col id="nav">
         <p><span role="img" aria-label="hand">🚀</span> Welcome to my little corner of the web! I am a sophomore studying <a href="https://www.ece.cmu.edu/" target="_blank" rel="noreferrer">ECE @ CMU</a>. My goals in life including building human-centric tools, studying tech + society, and becoming a coffee connoisseur. Talk to me about products, policies, and startups!</p>
         <p><span role="img" aria-label="star">🌟</span> Feel free to look at my <a href={CV} target="_blank" rel="noreferrer">CV</a> or contact me on any of my links. I'm also always down for a coffee chat!</p>
       </Col>

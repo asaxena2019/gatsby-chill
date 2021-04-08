@@ -11,7 +11,7 @@ one thing i've become more conscious about is the media i interact with every da
 
 most of these are recommendations, and i'm always open to more, especially those related to technology, sociology, and sustainability :)
 
-*updated january 19*
+*updated february 19*
 
 ##### books
 - hard things about hard things - ben horowitz
@@ -41,6 +41,12 @@ most of these are recommendations, and i'm always open to more, especially those
 - artificial unintelligence - meredith broussard
 - race after technology - ruha benjamin
 - black software - charlton mcilwain
+- when breath becomes air - paul kalanithi
+- automating inequality - virginia eubanks
+- lobster is the best medicine - liz climo
+
+#### papers and articles
+- [ethics of artificial intelligence and robotics](https://plato.stanford.edu/entries/ethics-ai/)
 
 ##### podcasts
 - how i built this
@@ -52,6 +58,8 @@ most of these are recommendations, and i'm always open to more, especially those
 - the social dilemma
 - coded bias
 - the social network
-- wandavision (big marvel fan)
-- mandalorian (also a big star wars fan)
+- wandavision
+- mandalorian
+- falcon and the winter soldier
+
 ___
