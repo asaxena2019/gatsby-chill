@@ -1,8 +1,37 @@
 title: building
 projects:
-      - title: 🥄 taste of africa
+      - title: 💰 stonks
+        date: march - april 2021
+        links:
+          - item: website
+            link:
+          - item: github
+            link:
+      - title: 💡 mood lights
+        date: march 2021
+        description:
+        links:
+        - item: github
+          link:
+        - item: video
+          link:
+      - title: 🖍️ skribble robot
+        date: feburary 2021
+        description:
+        links:
+          - item: github
+            link:
+          - item: video
+            link:
+      - title: 💪 RE Visions
+        date: january - april 2021
+        description: an informational website for RE Visions in pittsburgh, pennsylvania. created as a part of re:bloom.
+        links:
+          - item: website
+            link: https://www.revisionspgh.org/
+      - title: 🥄 A Taste of Africa
         date: june - august 2020
-        description: a catering website for a taste of africa in berkeley, california. created as part of levare using gatsby, react, and google apis.
+        description: a catering website for A Taste of Africa in berkeley, california. created as part of levare using gatsby, react, and google apis.
         links:
           - item: website
             link: http://atasteofafrica.netlify.app/
@@ -15,25 +44,33 @@ projects:
             - item: template
               link: http://anushkasaxena2000.github.io/
             - item: github
-              link: https://github.com/asaxena2019/minimal-particle-template       
+              link: https://github.com/asaxena2019/minimal-particle-template
       - title: 🐶 scottylabs careers
         date: june - july 2020
         description: a webpage with professional opportunities for the scottylabs community. using react, node.js, and google api.
-        links: 
+        links:
             - item: website
               link: https://careers.scottylabs.org/
             - item: github
-              link: https://github.com/asaxena2019/careerserver       
+              link: https://github.com/asaxena2019/careerserver
+      - title: Pokemon LED Lamp
+        date: march 2020
+        description: a laser-engraved and 3D printed LED lamp with pokemon theme panels. using arduino and C++
+        links:
+          - item: github
+            link:
+          - item: video
+            link:
       - title: 🍔 feed the burghers
         date: october 2019
-        description: an app to connect food sources to those in need in the pittsburgh area. won best social hack @ hackcmu 2019. 
+        description: an app to connect food sources to those in need in the pittsburgh area. won best social hack @ hackcmu 2019.
         links:
             - item: presentation
               link: https://docs.google.com/presentation/d/1WD4Hb7N7vrbzsyrK_hBfRJQ5uq1ur7qLLiQBVR0iSB8/edit#slide=id.g35f391192_00
       - title: 🎮 pacman
         date: november 2019
         description: a spin-off of pacman with ghosts that utilizes dijkstra's algorithm to track pacman. using python.
-        links: 
+        links:
             - item: github
               link: https://github.com/asaxena2019/pacman
             - item: video
