@@ -1,28 +1,19 @@
-title: building
+title: planted
 projects:
-      - title: 💰 stonks
-        date: march - april 2021
-        links:
-          - item: website
-            link:
-          - item: github
-            link:
       - title: 💡 mood lights
         date: march 2021
-        description:
+        description: convolution neural network emotion detection using raspberry pi cam and LED lights.
         links:
         - item: github
-          link:
+          link: https://github.com/asaxena2019/Hackberry-pi
         - item: video
-          link:
+          link: https://www.youtube.com/watch?v=ki282a0UR-g
       - title: 🖍️ skribble robot
         date: feburary 2021
-        description:
+        description: drawing hand with edge detection using raspberry pi and arduino.
         links:
-          - item: github
-            link:
           - item: video
-            link:
+            link: https://www.youtube.com/watch?v=2tFq2u1CyKw
       - title: 💪 RE Visions
         date: january - april 2021
         description: an informational website for RE Visions in pittsburgh, pennsylvania. created as a part of re:bloom.
@@ -53,14 +44,14 @@ projects:
               link: https://careers.scottylabs.org/
             - item: github
               link: https://github.com/asaxena2019/careerserver
-      - title: Pokemon LED Lamp
+      - title: 💡 Pokemon LED Lamp
         date: march 2020
         description: a laser-engraved and 3D printed LED lamp with pokemon theme panels. using arduino and C++
         links:
           - item: github
-            link:
+            link: https://github.com/asaxena2019/pokemon-lamp
           - item: video
-            link:
+            link: https://www.youtube.com/watch?v=x73GHvHebcg
       - title: 🍔 feed the burghers
         date: october 2019
         description: an app to connect food sources to those in need in the pittsburgh area. won best social hack @ hackcmu 2019.

@@ -4,9 +4,6 @@ import { graphql } from 'gatsby'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import SEO from "../components/seo"
-import Gardening from "../../content/garden.yaml"
-import Card from 'react-bootstrap/Card'
-import Container from 'react-bootstrap/Container'
 import Projects from "./projects"
 
 import "./pages.css"
@@ -19,32 +16,8 @@ useEffect(() => {
 return (
     <Layout>
         <SEO title="coding" />
-        <h2>technology garden</h2>
-        <h3>built</h3>
+        <h2>&gt;&gt;&gt; /technology garden</h2>
         <Projects />
-        <h3>building</h3>
-        <Container>
-        <Row>
-        {Gardening.projects.map((data, index) => {
-            return <div class="col-md-4 col-xs-6">
-                <Card key={`content_item_${index}`}>
-                <Card.Body>
-                    <Card.Title>{data.title}</Card.Title>
-                    <div class="card-block">
-                    <i><Card.Subtitle className="mb-2 text-muted">{data.date}</Card.Subtitle></i>
-                    <Card.Text>
-                    {data.description}
-                    </Card.Text>
-                    {data.links.map((external, index) => {
-                    return <Card.Link href={ external.link } target="_blank" rel="noreferrer" key={`content_item_${index}`}>{ external.item }</Card.Link>
-                    })}
-                    </div>
-                </Card.Body>
-            </Card>
-            </div>
-        })}
-        </Row>
-        </Container>
         <br></br>
         <h3>coding log</h3>
         <p>for updates, follow my dev account on twitter <a href="https://twitter.com/c0ffeec0ders" target="_blank" rel="noreferrer">@c0ffeec0ders</a>. powered by <a href="http://automate.io/" target="_blank" rel="noreferrer">automate.io</a> and <a href="https://developers.google.com/sheets/api" target="_blank" rel="noreferrer">google sheets api</a>.</p>

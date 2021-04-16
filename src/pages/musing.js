@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import "./pages.css"
+import Sidebar from "../components/sidebar"
 
 function external(link, slug, title){
   if (link === "NA"){
@@ -27,9 +28,10 @@ const BlogIndex = ({ data }) => {
 
   return (
     <Layout>
+      <Sidebar />
       <SEO title="musing" />
 
-      <h2>on my mind</h2>
+      <h2>&gt;&gt;&gt; /on_my_mind</h2>
       <a href="\tags">tags</a> | <a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="https://reading.supply/@anushka" target="_blank" rel="noreferrer">reading supply</a>
 
       <ol style={{ listStyle: `none` }}>
