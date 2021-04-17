@@ -32,7 +32,7 @@ const BlogIndex = ({ data }) => {
       <SEO title="musing" />
 
       <h2>&gt;&gt;&gt; /on_my_mind</h2>
-      <a href="\tags">tags</a> | <a href="https://coffeecoders.medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="https://reading.supply/@anushka" target="_blank" rel="noreferrer">reading supply</a>
+      <a href="\tags">tags</a> | <a href="https://medium.com/" target="_blank" rel="noreferrer">medium</a> | <a href="https://reading.supply/" target="_blank" rel="noreferrer">reading supply</a>
 
       <ol style={{ listStyle: `none` }}>
 

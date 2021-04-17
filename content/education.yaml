@@ -1,31 +1,22 @@
 title: learning
-university: Carnegie Mellon University
-grad: May 2023
-major: Bachelor of Science in Electrical and Computer Engineering
-awards: Grace Hopper 2020 Scholarship Recepient from the Department of ECE
+university: name of school
+grad: grad date
+major: degree and major
+awards: list any awards
 coursework:
       ece:
-      - item: Introduction to Computer Systems
-      - item: Electronic Devices and Analog Circuits
-      - item: Introduction to Electrical and Computer Engineering
-      - item: Structure and Design of Digital Systems
+      - item: add past courses
+      - item: and future course
       cs:
-      - item: Fundamentals of Programming
-      - item: Principles of Imperative Computing
-      - item: Rapid Prototyping Technologies
-      - item: Intermediate Rapid Prototyping
-      - item: Introduction to Machine Learning
+      - item: if you wanna change the subject
+      - item: you also have to change it in education.js
       math:
-      - item: Introduction to Probabilitiy Theory
-      - item: Concepts of Mathematics
-      - item: Differential Equations
-      - item: Calculus in Three Dimensions
-      - item: Matrix Algebra with Applications
-      - item: Introduction to Statistical Inferences
+      - item: you can add multiple subjects
+      - item: but add it in education.js as well
 skills:
       programming:
-      - item: Python, Java, C
+      - item: programming languages
       scripting:
-      - item: HTML, CSS, JavaScript, React, Node, Gatsby, Ruby, Jekyll
+      - item: and others
       hardware:
-      - item: Hardware Arduino, SolidWorks, AutoDesk, Grasshopper, Rhino, Raspberry Pi
+      - item: you can also change the subjects in education.js too

@@ -66,12 +66,6 @@ module.exports = {
       },
     },
     {
-    resolve: 'gatsby-source-google-sheets',
-    options:{
-      spreadsheetId:'1rg3ZvIx91MATY8SItXErB61Pi03pfdhioiOaYJLNjxs', worksheetTitle:'Sheet1', credentials:require('./secret.json')
-    },
-    },
-    {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {

@@ -1,61 +1,26 @@
 title: working
 jobs:
-      - company: Rapid Prototyping Technologies and Intermediate Rapid Prototyping
-        role: Teaching Assistant
-        date: Fall 2020 - Present
-        description: Helping students connect code and design to create beautiful products - even during a global pandemic.
+      - company: job
+        role: role
+        date: date
+        description: description of job
         tasks:
-          - title: Hold office hours for ten+ students
-            description: to help students one-on-one with CAD, Python, Grasshopper, Rhino, and ideation.
-          - title: Grade projects
-            description: and provide feedback to improve their design-thinking process.
+          - title: main tagline of job
+            description: and description
+          - title: add another tagline
+            description: and another description
         links:
-          - title: 15-294 Website
-            link: https://www.cs.cmu.edu/afs/cs/academic/class/15294-f20/
-          - title: 15-394 Website
-            link: https://www.cs.cmu.edu/afs/cs/academic/class/15394-f20/
-      - company: ScottyLabs
-        role: Director of Events
-        date: Spring 2020 - Present
-        description: We host hackathons, build APIs, and design cool things
+          - title: website to job or projects (has to be a valid link)
+            link: www.github.com
+      - company: job
+        role: role
+        date: date
+        description: description of job
         tasks:
-          - title: Planning TartanHacks,
-            description: Carnegie Mellon's largest hackathon, and run workshops on how to build hackathon projects
-          - title: Leading Web Development Weekend,
-            description: a series of educational workshops designed to introduce underclassmen to web dev skills
-          - title: Leading Crash Course,
-            description: a series of talks designed to introduce topics such as mobile development, machine learning, and blockchain
+          - title: main tagline of job
+            description: and description
+          - title: add another tagline
+            description: and another description
         links:
-          - title: ScottyLabs
-            link: http://scottylabs.org/
-      - company: Bank of America
-        role: Freshman Technical Analyst Intern
-        date: Summer 2020
-        description: Explored the culture and technology of the Bank. Due to privacy reasons, no project links are provided.
-        tasks:
-          - title: Research Data Streaming API
-            description: using Java, Mule, and Apache Tomcat under Global Banking and Markets Technology and increased data transfer capacity to 50 MB.
-          - title: Enterprise Architecture Data Extraction Project
-            description: using JupyterLab and Python to upgrade enterprise architecture system and allow easier access to employee data.
-          - title: Ideal Stock Portfolio
-            description: analyzed from 250 stock options using Excel and Python. Placed in top 10 out of 200 stock portfolios for the highest return on investment.
-          - title: Environmental, Social, and Governance Proposal
-            description: to ensure students remain on their career pipeline. Acted as cohorot representative and communicated with representatives from the ESG group at the Bank.
-        links:
-          - title: BoA Website
-            link: https://www.bankofamerica.com/
-      - company: Levare
-        role: Web Developer Volunteer
-        date: Summer 2020
-        description: Connecting POC-owned businesses and volunteers to make a difference in their communities
-        tasks:
-          - title: Developed an eCommerce website from sctatch
-            description: for a POC-owned business in California using Gatsby, GraphQL, Bootstrap, Google APIs, and Netlify CMS.
-          - title: Collaborated remotely with UI/UX designers, graphic designers, and business analysts
-            description: and created tutorials for them on Git workflow, command line, node package manager, and deployment.
-        links:
-          - title: A Taste of Africa
-            link: https://atasteofafrica.netlify.app/
-          - title: Levare
-            link: http://levareorg.com/
-          
+          - title: website to job or projects
+            link: www.github.com

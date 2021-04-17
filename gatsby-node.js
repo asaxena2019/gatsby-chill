@@ -15,19 +15,6 @@ exports.onCreateNode = async({ node, actions, getNode, store, cache, createNodeI
       value,
     })
   }
-  if (node.internal.type === "googleSheetSheet1Row") {
-    const fileNode = await createRemoteFileNode({
-    url: node.remote,
-    store,
-    cache,
-    createNode,
-    parentNodeId: node.id,
-    createNodeId,
-    })
-    if(fileNode){
-      node.localFeaturedImage___NODE = fileNode.id
-    }
-}
 }
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
